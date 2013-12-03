@@ -1,0 +1,24 @@
+!! Fonts
+XTerm*faceName: Inconsolata
+XTerm*faceNameDoublesize: AR PL UMing CN
+XTerm*faceSize: 8
+XTerm*font: -misc-fixed-medium-r-*-*-*-120-*-*-*-*-iso10646-1
+!XTerm*font: -*-Fixed-Bold-R-Normal-*-13-*-*-*-*-*-*-*
+!! Terminal Colors
+! term colors are ordered black, red, green, yellow, blue, magenta,
+! cyan, white, and then bright versions in the same order.
+*vt100.background: black
+*vt100.foreground: grey
+
+!! Other
+! meta key needs eightBitInput: false and/or metaSendsEscape: true
+XTerm*vt100.eightBitInput: false
+XTerm*vt100.metaSendsEscape: true
+XTerm.ttyModes: stop ^- start ^-
+XTerm.termName: xterm-256color
+Xft.dpi:        96
+Xft.antialias:  1
+Xft.hinting:    1
+Xft.hintstyle:  hintslight
+Xft.rgba:       rgb
+Xft.lcdfilter:  lcddefault

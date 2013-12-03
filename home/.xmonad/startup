@@ -1,0 +1,6 @@
+. $HOME/.bashrc
+xset b 0
+xsetroot -solid "#3f3f3f"
+xrandr --output VGA1 --auto --left-of DP1 --output DP1 --auto
+xrdb $HOME/.Xdefaults
+xscreensaver -no-splash &

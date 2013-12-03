@@ -1,0 +1,12 @@
+Config { font = "-*-Fixed-Bold-R-Normal-*-13-*-*-*-*-*-*-*"
+, bgColor = "black"
+, fgColor = "grey"
+, position = Top
+, lowerOnStart = True
+, commands = [ Run Date "%a %b %_d %Y %H:%M" "date" 100
+             , Run Weather "CYEG" ["-t", "temp: <tempC>C <skyCondition>"] 18000
+             ]
+, sepChar = "%"
+, alignSep = "}{"
+, template = "}{ %CYEG% <fc=#ee9a00>%date%</fc> "
+}
