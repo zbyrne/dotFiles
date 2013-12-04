@@ -1,0 +1,9 @@
+[user]
+	name = Zach Byrne
+	email = zacharyabyrne@gmail.com
+[color]
+	ui = auto
+[core]
+	editor = emacs -nw
+[merge]
+	conflictstyle = diff3
