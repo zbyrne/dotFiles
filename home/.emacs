@@ -1,4 +1,18 @@
-;; ========== Enable Line and Column Numbering ==========
+;; fg/bg colours
+(set-foreground-color "grey")
+(set-background-color "black")
+
+;; set font
+(set-default-font "Inconsolata 8")
+
+;; no scroll bars
+(scroll-bar-mode -1)
+
+;; no tool bar
+(tool-bar-mode -1)
+
+;; no fringe
+(set-fringe-mode 0)
 
 ;; Show line-number in the mode line
 (line-number-mode 1)
