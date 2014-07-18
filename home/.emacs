@@ -41,6 +41,10 @@
 (setq c-default-style "stroustrup"
       c-basic-offset 4)
 
+;; These aren't bound by default??
+(global-set-key(kbd "M-n") 'forward-paragraph)
+(global-set-key(kbd "M-p") 'backward-paragraph)
+
 ;; cscope for nsfw repo
 (require 'xcscope)
 
