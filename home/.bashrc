@@ -5,6 +5,7 @@ alias et='emacs -nw'
 alias rc='echo $?'
 alias less='less -R'
 alias 'glo'='git log --oneline'
+alias 'glr'='git log -p --reverse `git merge-base HEAD @{u}`..HEAD'
 alias 'vol'='alsamixer'
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
